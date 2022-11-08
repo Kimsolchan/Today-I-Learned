@@ -3,7 +3,7 @@
 - if-else if : 한 문장에 여러 개의 조건식을 사용할 수 있으며 중복 사용 가능
 
 ## if-else if 기본구조
-```
+```java
 if(조건식A){
     조건식A의 연산결과가 참일 때 수행될 문장을 적는다
 }else if(조건식B){
@@ -17,7 +17,7 @@ if(조건식A){
 ```
 
 ### if-else if문 예시
-```
+```java
 int grade = 20;
 
         if(grade >= 90){
