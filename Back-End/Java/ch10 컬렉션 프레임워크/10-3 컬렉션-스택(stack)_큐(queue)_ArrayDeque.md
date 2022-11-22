@@ -129,8 +129,6 @@ public class Main {
 - deque 예시
 ```java
 // Main
-
-// 결과
 import java.util.Deque;
 
 public class ArrayDeque {
