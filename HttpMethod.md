@@ -29,6 +29,11 @@ REST를 발표했다고 한다.
 여기선 행위(REST를 지키면서 행위를 전달하는 방법)에 해당하는 HTTP Method 에 대해 정리한다.
 
 ## HTTP Method
+```
+클라이언트와 서버 사이에 이루어지는 
+
+요청(Request)과 응답(Response) 데이터를 전송하는 방식
+```
 크게 GET / POST / PUT / DELETE가 대표적이라고 한다.
 
 일반적으로 ```CRUD``` 에서 다음과 같이 이용한다.
