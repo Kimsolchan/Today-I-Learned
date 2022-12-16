@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Spring prac</title></head>
+<body>
+<div>
+    이곳은 Spring prac 동적 웹 페이지
+</div>
+<div>
+    <!--  th : Thymeleaf(템플릿 엔진(스프링환경 내에게 정적인 웹페이지를 동적인 웹페이로 변경시킨다,)중 하나)
+        문법 -> 자바 언어를 html에서 사영가능하게 함 / th:text : 해당 html tag 안에 값을 넣어준다.-->
+    <!--  th:text : 해당 html tag 안에 값을 넣어준다.-->
+    (방문한 동물들 : <span th:text="${visits} + 마리"></span>)
+</div>
+</body>
+</html>
