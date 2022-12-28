@@ -41,7 +41,7 @@ public class Prac01 {
         int n1 = 1;
         System.out.println("변수 n1의 값 : " + n1);
 
-        // 뵨수 n1의 값을 변경한다.
+        // 변수 n1의 값을 변경한다.
         n1 = 2;
         System.out.println("변수 n1의 값 : " + n1);
 
